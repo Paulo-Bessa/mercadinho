@@ -23,11 +23,13 @@ html{
     /* background: red; */
     font-family: 'Alata', sans-serif;
     letter-spacing: 2px;
+    right: 100px;
 }
 
 .logo {
     top:5px;
-    left:25px;
+    /* left:25px; */
+    right: 30px;
     padding: 10px;
     position: relative;
     z-index: -1;
@@ -123,6 +125,33 @@ hr.solid {
 }
 .vitrine {
     margin: 70px 0;
+    height: 100%;
+    width: 100%;
+    display: initial;
+}
+main.vitrine.primeira-fileira{
+    padding-top: 6rem;
+}
+.conteúdo{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 20%;
+    margin: 3rem 2rem;
+    box-shadow: 0 15px 20px rgba(0, 0, 0, 0.2);
+    background-color: #68aa9d
+
+}
+
+.Título-da-seção {
+    padding: 5%;
+    text-align: start;
+}
+.um {
+    background-color: #68aa9d;
+}
+.dois {
+    background: #ce5252;
 }
 .linha{
     display: flex;
@@ -147,12 +176,14 @@ hr.solid {
     padding: 16px;
     font-size: 16px;
     border: none;
+    width: 200px;
   }
   
   /* The container <div> - needed to position the dropdown content */
   .dropdown {
     position: relative;
     display: inline-block;
+    width: 200px;
   }
   
   /* Dropdown Content (Hidden by Default) */
@@ -161,6 +192,7 @@ hr.solid {
     position: absolute;
     background-color: #cce691;
     min-width: 117px;
+    width: 200px;
     /* box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2); */
     z-index: 1;
   }
